@@ -7,6 +7,8 @@
 :root{
     --ms-bg-color-head:rgb(44,62,80);
     --ms-bg-color-section:rgb(85,189,156);
+    --ms-bg-color-ft:rgb(58,84,109);
+    --ms-bg-color-fb:rgb(44,62,80);
 }
 
 header{
@@ -22,7 +24,7 @@ body{
 }
 
 #about, #contact{
-    padding: 0px 7.5rem;
+    padding: 0px 10rem;
 }
 
 .star-line{
@@ -30,4 +32,15 @@ body{
     width: 15%;
 }
 
+.foot-top{
+    background-color: var(--ms-bg-color-ft);
+}
+
+.foot-bottom{
+    background-color: var(--ms-bg-color-fb);
+}
+
+footer a{
+    text-decoration: none;
+}
 
