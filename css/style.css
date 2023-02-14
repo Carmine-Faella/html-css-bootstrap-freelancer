@@ -24,3 +24,10 @@ body{
 #about, #contact{
     padding: 0px 7.5rem;
 }
+
+.star-line{
+    height: 0.3rem;
+    width: 15%;
+}
+
+
