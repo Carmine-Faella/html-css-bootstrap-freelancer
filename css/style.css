@@ -40,7 +40,10 @@ body{
     background-color: var(--ms-bg-color-fb);
 }
 
-footer a{
-    text-decoration: none;
+.layover{
+    display: none;
 }
 
+#portfolio a:hover .layover{
+    display: block;
+}
