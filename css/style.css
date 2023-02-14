@@ -13,10 +13,14 @@ header{
     background-color: var(--ms-bg-color-head);
 }
 
-#intro{
+#intro, #about{
     background-color:var(--ms-bg-color-section) ;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+#about, #contact{
+    padding: 0px 7.5rem;
 }
