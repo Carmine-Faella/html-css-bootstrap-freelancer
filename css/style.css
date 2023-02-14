@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ms-bg-color-head:rgb(44,62,80);
+    --ms-bg-color-section:rgb(85,189,156);
+}
+
+header{
+    background-color: var(--ms-bg-color-head);
+}
+
+#intro{
+    background-color:var(--ms-bg-color-section) ;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
